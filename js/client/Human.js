@@ -62,7 +62,7 @@ Human.prototype.displayBubble = function(text){
         this.bubble.x = this.x -(tail_offset-20);
         this.bubble.y = this.y + (this == Game.player ? -this.height : -(this.height+13)) - txt.height + 16;
     }.bind(this);
-    Game.sounds.play('chat');
+    Game.sounds.play('quack');
 };
 
 Human.prototype.killBubble = function(){
