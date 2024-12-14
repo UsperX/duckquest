@@ -1,9 +1,9 @@
 {
   "resources": [
-    "sounds.ogg",
     "sounds.m4a",
     "sounds.mp3",
-    "sounds.ac3"
+    "sounds.ac3",
+    "sounds.ogg"
   ],
   "spritemap": {
     "achievement": {
@@ -49,6 +49,11 @@
     "noloot": {
       "start": 16,
       "end": 16.766938775510205,
+      "loop": false
+    },
+    "quack": {
+      "start": 18.279,
+      "end": 18.557,
       "loop": false
     }
   }
